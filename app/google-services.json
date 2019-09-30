@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "859421151892",
+    "firebase_url": "https://scrap-d32d1.firebaseio.com",
+    "project_id": "scrap-d32d1",
+    "storage_bucket": "scrap-d32d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:859421151892:android:f49c1dd20d073d44",
+        "android_client_info": {
+          "package_name": "e.droid.scrap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "859421151892-sfc0ag8oo3ivcfn01317l86mb8dho3r3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "e.droid.scrap",
+            "certificate_hash": "d54be922fac4bd06c374604d4959baeaa28478fd"
+          }
+        },
+        {
+          "client_id": "859421151892-rd15l473aoe0mr90enpc7nbdd9rt8t1v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDS13P8GSjEygbdM9c4Bsv7jbMQSyNqf9Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "859421151892-rd15l473aoe0mr90enpc7nbdd9rt8t1v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
