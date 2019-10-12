@@ -16,7 +16,7 @@
         android:hint="Phone Number"
         android:textSize="30sp"
         android:textStyle="bold"
-        android:id="@+id/username"
+        android:id="@+id/username_login"
         android:layout_below="@id/log"
         android:layout_marginLeft="10dp"
         android:background="#FFFFFF"
@@ -32,22 +32,24 @@
         android:textSize="30sp"
         android:textStyle="bold"
         android:padding="5dp"
+        android:inputType="textPassword"
         android:layout_marginTop="10dp"
-        android:id="@+id/password"
+        android:id="@+id/password_login"
         android:background="#FFFFFF"
         android:layout_marginLeft="10dp"
-        android:layout_below="@id/username"
+        android:layout_below="@id/username_login"
         android:layout_height="wrap_content" />
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:layout_below="@id/password"
+        android:layout_below="@id/password_login"
         android:id="@+id/layout_1"
         android:orientation="horizontal">
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:id="@+id/remember"
             android:text="Remember Me"/>
         <TextView
             android:layout_width="wrap_content"
@@ -57,24 +59,36 @@
             android:layout_marginLeft="80dp"/>
 
     </LinearLayout>
+
     <Button
+        android:id="@+id/login_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/colorPrimaryDark"
-        android:text="Have an account?Login"
-        android:id="@+id/login_btn"
-        android:textColor="#FFFFFF"
-        android:textSize="20sp"
-        android:padding="5dp"
         android:layout_below="@id/layout_1"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"/>
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:padding="5dp"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="I'm an admin"
         android:textSize="17sp"
+        android:id="@+id/admin"
         android:layout_alignParentEnd="true"
+        android:layout_below="@id/login_btn"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I'm a user"
+        android:textSize="17sp"
+        android:id="@+id/not_admin"
+        android:gravity="left"
+        android:visibility="invisible"
         android:layout_below="@id/login_btn"
         />
 </RelativeLayout>
